@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+h1 {
+    font-size: 48px;
+}
+nav ul{
+    font-size: 24px;
+    color: #d1cbbe;
+    display: flex;
+    gap: 20px;
+}
+ 

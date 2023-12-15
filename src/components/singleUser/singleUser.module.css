@@ -1,0 +1,53 @@
+.container {
+    width: 450px;
+    height: 400px;
+    background-color: #531a2b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    font-size: 44px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+img {
+    border-radius: 50%;
+}
+
+.userInfo p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.button , .logoutButton {
+    background-color: gray;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+   
+}
+.button {
+    top: 10px;
+    left: 10px;
+}
+.logoutButton {
+    bottom: 20px;
+    right: 20px;
+}
+.button:hover , .logoutButton:hover {
+    cursor: pointer;
+    background-color: #706f6f;
+    transition: 0.3s;
+}
