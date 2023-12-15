@@ -26,10 +26,10 @@ const Login: React.FC = () => {
       if (response.meta.requestStatus === "fulfilled" && response.payload) {
         navigate("/users");
       } else {
-        dispatch(setError("Login failed. Please check your credentials."));
+        dispatch(setError("Email or password is incorrect"));  
       }
     } catch (error) {
-      dispatch(setError("Email or password is incorrect"));
+      dispatch(setError("Login failed. Please check your credentials."));
     }
   };
 
